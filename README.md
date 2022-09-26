@@ -8,7 +8,10 @@
 [![License](https://img.shields.io/badge/license-LGPL%202.1-4EB1BA.svg?color=4D7A97&logo=apache)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/alibaba/COLA)](https://github.com/alibaba/COLA/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/alibaba/COLA)](https://github.com/alibaba/COLA/fork)
+[![user repos](https://badgen.net/github/dependents-repo/alibaba/COLA?label=user%20repos)](https://github.com/alibaba/COLA/network/dependents)
 [![GitHub issues](https://img.shields.io/github/issues/alibaba/COLA.svg)](https://github.com/alibaba/COLA/issues)
+[![GitHub Contributors](https://img.shields.io/github/contributors/alibaba/COLA)](https://github.com/alibaba/COLA/graphs/contributors)
+[![gitpod: Ready to Code](https://img.shields.io/badge/Gitpod-ready--to--code-green?label=gitpod&logo=gitpod&logoColor=white)](https://gitpod.io/#https://github.com/alibaba/COLA)
 
 <strong>COLA 是 Clean Object-Oriented and Layered Architecture的缩写，代表“整洁面向对象分层架构”。
 目前COLA已经发展到[COLA v4](https://blog.csdn.net/significantfrank/article/details/110934799)。</strong>
@@ -78,14 +81,14 @@ COLA架构区别于这些架构的地方，在于除了思想之外，我们还�
 执行以下命令：
 
 ```bash
-mvn archetype:generate  \
+mvn archetype:generate \
     -DgroupId=com.alibaba.cola.demo.web \
     -DartifactId=demo-web \
     -Dversion=1.0.0-SNAPSHOT \
     -Dpackage=com.alibaba.demo \
     -DarchetypeArtifactId=cola-framework-archetype-web \
     -DarchetypeGroupId=com.alibaba.cola \
-    -DarchetypeVersion=4.2.1
+    -DarchetypeVersion=4.3.1
 ```
 
 命令执行成功的话，会看到如下的应用代码结构：
@@ -104,14 +107,14 @@ mvn archetype:generate  \
 如果要生成不是`web`工程而是`service`工程也类似，执行的是下面的命令：
 
 ```bash
-mvn archetype:generate  \
+mvn archetype:generate \
     -DgroupId=com.alibaba.cola.demo.service \
     -DartifactId=demo-service \
     -Dversion=1.0.0-SNAPSHOT \
     -Dpackage=com.alibaba.demo \
     -DarchetypeArtifactId=cola-framework-archetype-service \
     -DarchetypeGroupId=com.alibaba.cola \
-    -DarchetypeVersion=4.2.1
+    -DarchetypeVersion=4.3.1
 ```
 
 # 版本迭代
